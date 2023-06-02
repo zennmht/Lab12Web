@@ -30,31 +30,21 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-<<<<<<< HEAD
 $routes->get('/home', 'page::home');
 $routes->get('/about', 'Page::about');
 $routes->get('/artikel', 'Artikel::index');
 $routes->get('/kontak', 'Page::kontak');
 $routes->get('/artikel/(:any)', 'Artikel::view/$1');
+$routes->add('/user/login', 'User::login');
+$routes->get('/user/logout', 'User::logout');
 
-=======
-$routes->get('/about', 'Page::about');
-$routes->get('/contact', 'Page::contact');
-$routes->get('/faqs', 'Page::faqs');
-$routes->get('/artikel','Artikel::index');
-$routes->get('/artikel/(:any)', 'Artikel::view/$1');
->>>>>>> 89bd271c0e591dc712b7e0607ce67a2d60b75ee8
-$routes->group('admin', function ($routes) {
+$routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->get('artikel', 'Artikel::admin_index');
     $routes->add('artikel/add', 'Artikel::add');
     $routes->add('artikel/edit/(:any)', 'Artikel::edit/$1');
     $routes->get('artikel/delete/(:any)', 'Artikel::delete/$1');
 });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 89bd271c0e591dc712b7e0607ce67a2d60b75ee8
 /*
  * --------------------------------------------------------------------
  * Additional Routing
@@ -70,8 +60,4 @@ $routes->group('admin', function ($routes) {
  */
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 89bd271c0e591dc712b7e0607ce67a2d60b75ee8

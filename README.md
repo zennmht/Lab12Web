@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Praktikum 8: Framework Lanjutan (CRUD)
+
+# Praktikum 9: Framework Lanjutan (Modul Login)
 
 **_Nama: Zaini Muhtarom_** <br/>
 **_Nim : 312110294_** <br/>
@@ -7,35 +7,31 @@
 
 <br/>
 
+## Login Page : 
+<img src="img/login-page.png">
+<img src="img/user-login.png">
+
 ## Artikel : 
-<img src="./img/artikel.jpg">
+<img src="img/artikel.png">
 
 <br/>
 
 ## Detail Artikel : 
-<img src="./img/detail-artikel.jpg">
+<img src="img/detail-artikel.png">
 
 <br/>
 
 ## Admin Artikel : 
-<img src="./img/admin-artikel.jpg">
+<img src="img/admin-artikel.png">
 
 <br/>
 
 ## Admin Tambah Artikel : 
-<img src="./img/admin-tambah-artikel.jpg">
+<img src="img/add-artikel.png">
 
 <br/>
 
 ## Admin Edit Artikel : 
-<img src="./img/admin-edit-artikel.jpg">
+<img src="img/edit-artikel.png">
 
 <br/>
-
-=======
-# TUGAS Lab7 PHP Framework (Codeigniter) Pemograman Web 2
-
-**_Nama : Zaini Muhtarom_** <br/>
-**_NIM : 312110294_** <br/>
-**_Kelas : TI.21.A3_** <br/>
->>>>>>> 89bd271c0e591dc712b7e0607ce67a2d60b75ee8
