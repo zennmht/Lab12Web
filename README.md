@@ -1,5 +1,5 @@
 
-# Praktikum 9: Framework Lanjutan (Modul Login)
+# Praktikum 10: Pagination dan Pencarian
 
 **_Nama: Zaini Muhtarom_** <br/>
 **_Nim : 312110294_** <br/>
@@ -23,6 +23,7 @@
 
 ## Admin Artikel : 
 <img src="img/admin-artikel.png">
+<img src="img/admin-artikel1.png">
 
 <br/>
 

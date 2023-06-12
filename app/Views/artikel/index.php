@@ -1,5 +1,4 @@
 <?= $this->include('template/header'); ?>
-<<<<<<< HEAD
 <h1><?= $title; ?></h1>
 <hr>
 <div id="artikel">
@@ -23,7 +22,6 @@
     </article>
   <?php endif; ?>
 </div>
-=======
 <article class="hero">
     <?php if ($artikel) : foreach ($artikel as $row) : ?>
             <h2><a href="<?= base_url('/artikel/' . $row['slug']); ?>"><?= $row['judul']; ?></a>
@@ -40,5 +38,4 @@
 
     <?php endif; ?>
 </article>
->>>>>>> 89bd271c0e591dc712b7e0607ce67a2d60b75ee8
 <?= $this->include('template/footer'); ?>

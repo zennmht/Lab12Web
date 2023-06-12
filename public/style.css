@@ -5,7 +5,7 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: cursive;
   transition: all .3s;
 }
 
@@ -17,7 +17,7 @@ html, body{
 #container {
   position: relative;
   max-width: 1000px;
-  height: 100vh;
+  height: max-content;
   background: #fff;
   box-shadow: 0 0 10px #00000045;
   margin: auto;
@@ -213,12 +213,11 @@ nav > a{
 
 .btn {
   padding: 5px 10px;
-  background-color: #0079FF;
-  color: #ECF8F9;
+  background-color: #FFC107;
+  color: #000;
   border-radius: 10px;
   font-weight: 600;
   font-size: 16px;
-  font-weight: bold;
 }
 
 .btn-danger{
@@ -284,8 +283,7 @@ nav > a{
 }
 
 #login-wrapper > form > p > a {
-  color: #00C4FF;
-  font-weight: bold;
+  color: #FFC107;
 }
 
 #login-wrapper > form > p > a:hover{
@@ -301,12 +299,53 @@ nav > a{
   margin-bottom: 25px;
 }
 
+#pagination > nav {
+  width: max-content;
+  background: transparent;
+  margin-top: 15px;
+}
+
+#pagination > nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 10px; 
+}
+
+#pagination > nav > ul > li > a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  border-radius: 10px;
+}
+
+#pagination > nav > ul > li:not(.active){
+  background-color: #c5c5c5;
+}
+
+#pagination > nav > ul > li:not(.active):hover {
+  background-color: #B5B5B5;
+}
+
+.form-search > input {
+  border: 1px solid #c5c5c5;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.form-search > input[type="submit"] {
+  background-color: #2B83EA;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
 footer {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   width: 100%;
   background: black;
   opacity: .9;
   padding: 20px 30px;
-  color: white;
+  color: white !important;
 }
