@@ -1,11 +1,23 @@
 
-# Praktikum 10: Pagination dan Pencarian
+# Praktikum 12: API
 
 **_Nama: Zaini Muhtarom_** <br/>
 **_Nim : 312110294_** <br/>
 **_Kelas : TI.21.A3_** <br/>
 
 <br/>
+
+## GET : 
+<img src="img/GET.png">
+
+## GET 2 : 
+<img src="img/GET2.png">
+
+## POST : 
+<img src="img/POST.png">
+
+## DELETE : 
+<img src="img/DELETE.png">
 
 ## Login Page : 
 <img src="img/login-page.png">
